@@ -24,7 +24,7 @@ namespace RivetzSample
 
             var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
 
-            //Toolbar will now take on default actionbar characteristics
+            //Toolbar will now take on default actionbar characteristics 
             SetSupportActionBar(toolbar);
 
             SupportActionBar.Title = "Hello from Appcompat Toolbar";
